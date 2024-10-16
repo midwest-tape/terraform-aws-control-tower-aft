@@ -15,4 +15,7 @@ module "aft" {
   account_provisioning_customizations_repo_name = "${var.github_username}/terraform-aft-account-provisioning-customizations"
   global_customizations_repo_name               = "${var.github_username}/terraform-aft-global-customizations"
   account_customizations_repo_name              = "${var.github_username}/terraform-aft-account-customizations"
+
+  aft_feature_delete_default_vpcs_enabled = true
+  
 }
